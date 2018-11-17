@@ -1,0 +1,13 @@
+
+================== ASTRAL ===================== 
+
+This is ASTRAL version 5.5.12
+Gene trees are treated as unrooted
+15 trees read from dataset/11-texon/estimated_15genes_strongILS/sp_tree/Rep10_15genes
+Exception in thread "main" java.io.FileNotFoundException: resultAstral/11-texon/estimated_15genes_strongILS/Extraliniage_Score_Estimation_Astral_TEMP/Temp10 (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at java.io.FileWriter.<init>(FileWriter.java:90)
+	at phylonet.coalescent.CommandLine.main(CommandLine.java:508)
